@@ -1,0 +1,43 @@
+Session Information:,,,,Device Information:,,,,Oarlock Information:,,,,Oarlock Settings:
+
+Name:,Time - :15,,,Name:,SpdCoach 2790228,,,Firmware:,---,,,Boat ID:,---
+Start Time:,07/22/2022 18:20,,,Model:,SpeedCoach GPS Pro,,,,,,,Seat Number:,---
+Type:,Single Time,,,Serial:,2790228,,,,,,,Port Starboard:,---
+System of Units:,Meters/Split500,,,Firmware Version:,2.23,,,,,,,Oar Length:,---
+Speed Input:,GPS,,,Profile Version:,0.03,,,,,,,Inboard Length:,---
+,,,,Hardware Version:,Rev 11,,,,,,,,
+,,,,LiNK Version:,2.1.68,,,,,,,,
+
+
+Session Summary:
+
+Total Intervals,Total Distance (GPS),Total Distance (IMP),Total Elapsed Time,Avg Split (GPS),Avg Speed (GPS),Avg Split (IMP),Avg Speed (IMP),Avg Stroke Rate,Total Strokes,Distance/Stroke (GPS),Distance/Stroke (IMP),Avg Heart Rate,Avg Power,Avg Catch,Avg Slip,Avg Finish,Avg Wash,Avg Force Avg,Avg Work,Avg Force Max,Avg Max Force Angle,Start GPS Lat.,Start GPS Lon.
+(Interval),(Meters),(Meters),(HH:MM:SS.tenths),(/500),(M/S),(/500),(M/S),(SPM),(Strokes),(Meters),(Meters),(BPM),(Watts),(Degrees),(Degrees),(Degrees),(Degrees),(Newtons),(Joules),(Newtons),(Degrees),(Degrees),(Degrees)
+1,0.0,0.0,00:00:15.0,00:00:00.0,0.00,00:00:00.0,0.00,79.5,13,0.0,0.0,---,---,---,---,---,---,---,---,---,---,39.8600193,75.4600159
+
+
+Interval Summaries:
+
+Interval,Total Distance (GPS),Total Distance (IMP),Total Elapsed Time,Avg Split (GPS),Avg Speed (GPS),Avg Split (IMP),Avg Speed (IMP),Avg Stroke Rate,Total Strokes,Distance/Stroke (GPS),Distance/Stroke (IMP),Avg Heart Rate,Avg Power,Avg Catch,Avg Slip,Avg Finish,Avg Wash,Avg Force Avg,Avg Work,Avg Force Max,Avg Max Force Angle,Start GPS Lat.,Start GPS Lon.
+(Interval),(Meters),(Meters),(HH:MM:SS.tenths),(/500),(M/S),(/500),(M/S),(SPM),(Strokes),(Meters),(Meters),(BPM),(Watts),(Degrees),(Degrees),(Degrees),(Degrees),(Newtons),(Joules),(Newtons),(Degrees),(Degrees),(Degrees)
+1,0.0,0.0,00:00:15.0,00:00:00.0,0.00,00:00:00.0,0.00,79.5,13,0.0,0.0,---,---,---,---,---,---,---,---,---,---,39.8600193,75.4600159
+
+
+
+Per-Stroke Data:
+
+Interval,Distance (GPS),Distance (IMP),Elapsed Time,Split (GPS),Speed (GPS),Split (IMP),Speed (IMP),Stroke Rate,Total Strokes,Distance/Stroke (GPS),Distance/Stroke (IMP),Heart Rate,Power,Catch,Slip,Finish,Wash,Force Avg,Work,Force Max,Max Force Angle,GPS Lat.,GPS Lon.
+(Interval),(Meters),(Meters),(HH:MM:SS.tenths),(/500),(M/S),(/500),(M/S),(SPM),(Strokes),(Meters),(Meters),(BPM),(Watts),(Degrees),(Degrees),(Degrees),(Degrees),(Newtons),(Joules),(Newtons),(Degrees),(Degrees),(Degrees)
+1,0.0,0.0,00:00:02.2,00:00:00.0,0.00,00:00:00.0,0.00,27.0,1,0.0,0.0,---,---,---,---,---,---,---,---,---,---,39.8600193,75.4600159
+1,0.0,0.0,00:00:03.6,00:00:00.0,0.00,00:00:00.0,0.00,33.5,2,0.0,0.0,---,---,---,---,---,---,---,---,---,---,39.8600193,75.4600159
+1,0.0,0.0,00:00:04.0,00:00:00.0,0.00,00:00:00.0,0.00,101.0,3,0.0,0.0,---,---,---,---,---,---,---,---,---,---,39.8600193,75.4600159
+1,0.0,0.0,00:00:05.2,00:00:00.0,0.00,00:00:00.0,0.00,52.0,4,0.0,0.0,---,---,---,---,---,---,---,---,---,---,39.8600193,75.4600159
+1,0.0,0.0,00:00:06.2,00:00:00.0,0.00,00:00:00.0,0.00,108.0,5,0.0,0.0,---,---,---,---,---,---,---,---,---,---,39.8600193,75.4600159
+1,0.0,0.0,00:00:06.8,00:00:00.0,0.00,00:00:00.0,0.00,94.0,6,0.0,0.0,---,---,---,---,---,---,---,---,---,---,39.8600193,75.4600159
+1,0.0,0.0,00:00:07.4,00:00:00.0,0.00,00:00:00.0,0.00,96.5,7,0.0,0.0,---,---,---,---,---,---,---,---,---,---,39.8600193,75.4600159
+1,0.0,0.0,00:00:08.0,00:00:00.0,0.00,00:00:00.0,0.00,109.5,8,0.0,0.0,---,---,---,---,---,---,---,---,---,---,39.8600193,75.4600159
+1,0.0,0.0,00:00:08.6,00:00:00.0,0.00,00:00:00.0,0.00,112.0,9,0.0,0.0,---,---,---,---,---,---,---,---,---,---,39.8600193,75.4600159
+1,0.0,0.0,00:00:09.0,00:00:00.0,0.00,00:00:00.0,0.00,104.5,10,0.0,0.0,---,---,---,---,---,---,---,---,---,---,39.8600193,75.4600159
+1,0.0,0.0,00:00:09.6,00:00:00.0,0.00,00:00:00.0,0.00,108.0,11,0.0,0.0,---,---,---,---,---,---,---,---,---,---,39.8600193,75.4600159
+1,0.0,0.0,00:00:10.8,00:00:00.0,0.00,00:00:00.0,0.00,62.0,12,0.0,0.0,---,---,---,---,---,---,---,---,---,---,39.8600193,75.4600159
+1,0.0,0.0,00:00:13.2,00:00:00.0,0.00,00:00:00.0,0.00,28.0,13,0.0,0.0,---,---,---,---,---,---,---,---,---,---,39.8600193,75.4600159
