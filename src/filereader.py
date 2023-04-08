@@ -2,9 +2,6 @@ from pathlib import Path
 
 from classes import session_summary, interval_summary, per_stroke_data
 
-# data_folder = Path("data-2023")
-
-
 def get_data(filenames, data_folder):
     for name in filenames:
         file_to_open = data_folder / name
