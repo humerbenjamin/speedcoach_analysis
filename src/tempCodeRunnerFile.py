@@ -1,0 +1,1 @@
+    ax1.plot(time_arr, mean_split_arr, "-", color=color)

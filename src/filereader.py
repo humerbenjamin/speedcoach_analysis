@@ -3,6 +3,7 @@ from pathlib import Path
 from classes import session_summary, interval_summary, per_stroke_data
 
 def get_data(filenames, data_folder):
+    data = []
     for name in filenames:
         file_to_open = data_folder / name
         f = open(file_to_open)
@@ -52,14 +53,12 @@ def get_data(filenames, data_folder):
                     else:
                         per_s_data = add_additional_stroke(per_s_data, line)
                         if line == lines[-1]:
-                            return session_sum, interval_sum, per_s_data
+                            data.append([session_sum, interval_sum, per_s_data])
                 else:
                     space += 1
 
-        
-        
-        # for i in range(3):
-        #     print(lines[i+11])
+    return data
+
 
 
 

@@ -3,14 +3,20 @@ from pathlib import Path
 
 # personal files
 from filereader import get_data
-from plot_vals import plot_per_stroke_data_onefile
-from plot_vals import plot_per_stroke_data_multifile
-from plot_vals import plot_interval_summaries
+import plot_vals as plt
 
 if __name__ == '__main__':
-    data_folder = Path("data-2023")
-    print(data_folder)
-    a, b, c = get_data(["2023-04-08_3-2k_1.csv"], data_folder)
-    d, e, f = get_data(["2023-04-08_3-2k_2.csv"], data_folder)
-    print(b.Total_Strokes)
-    plot_per_stroke_data_multifile([c, f], "stroke rate")
+    ##################################################
+    #    SPECIFY DATA SOURCE FOLDER AND FILE LIST    #
+    ##################################################
+
+    data_folder = Path("2023-fall")
+    file_list = ['2023-10-21_1250-1.csv', '2023-10-21_1250-2.csv', '2023-10-21_1250-3.csv', '2023-10-21_1250-4.csv']
+
+    data = get_data(file_list, data_folder)
+    print(data)
+
+    # plt.plot_race_summary(data[0], Title="2023/10/18 1900m Time Trial")
+    # plt.plot_race_summary(data[1], Title="2023/10/18 2000m Time Trial")
+
+    plt.plot_per_stroke_data_multifile(data, "split")
